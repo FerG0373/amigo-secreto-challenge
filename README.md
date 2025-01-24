@@ -23,7 +23,7 @@ La aplicación permite gestionar una lista de nombres y realizar un sorteo para 
 4. Repite el proceso para añadir más nombres.<br>
 5. Hacer clic en "Sortear" para elegir al amigo secreto.<br>
 <div align="left">
-  <img src="https://github.com/FerG0373/amigo-secreto-challenge/blob/c20ae6817572ace961a5425e7bebb66482a21e22/assets/captura-2.png" alt="Captura de pantalla" width="500">  
+  <img src="https://github.com/FerG0373/amigo-secreto-challenge/blob/c20ae6817572ace961a5425e7bebb66482a21e22/assets/captura-2.png" alt="Captura de pantalla" width="500"><br><br>
   <img src="https://github.com/FerG0373/amigo-secreto-challenge/blob/c20ae6817572ace961a5425e7bebb66482a21e22/assets/captura-3.png" alt="Captura de pantalla" width="500">  
 </div>
 6. Si deseás iniciar un nuevo sorteo, simplemente escribe un nuevo nombre y la aplicación reiniciará el proceso.
