@@ -34,3 +34,15 @@ La aplicación permite gestionar una lista de nombres y realizar un sorteo para 
 - **HTML**: Para estructurar la interfaz.
 - **CSS**: Para dar estilo al proyecto.
 - **JavaScript**: Para la lógica del sorteo y la manipulación dinámica del DOM.
+
+
+## Instalación y ejecución 🚀
+
+1. Escribir en la línea de comandos: git clone https://github.com/FerG0373/amigo-secreto-challenge.git
+2. Abrir el archivo index.html en tu navegador preferido.
+
+
+## Autor 👨‍💻
+Proyecto desarrollado por Fernando González, como parte del curso ONE.
+
+¡Gracias!
