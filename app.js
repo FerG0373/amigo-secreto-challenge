@@ -5,8 +5,7 @@ function agregarAmigo() {
     let nombre = document.getElementById("amigo").value.trim(); // trim() elimina los espacios en blanco al inicio y al final del string.
     // Verifica si se agrega un nombre no válido.
     if(nombre !== "") {
-        amigos.push(nombre);
-        console.log(amigos);
+        amigos.push(nombre);        
     } else {
         alert("Por favor, ingrese un nombre válido.");
     }
@@ -21,8 +20,8 @@ function limpiarInput() {
 
 // Agrega los nombres como un elemento <li>.
 function actualizarLista() {
-    let lista = document.getElementById("listaAmigos");    
-    lista.innerHTML = "";  // Limpia la lista antes de agregar los nombres para que no se dupliquen constantemente.
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
 
     let i = 0;
     while(i < amigos.length) {
@@ -30,5 +29,23 @@ function actualizarLista() {
         li.textContent = amigos[i]
         lista.appendChild(li);  // appendChild() lo inserta en el DOM, haciéndolo visible en la web.
         i++;
+    }
+}
+
+// Elige, al azar, un nombre del array amigos.
+function sortearAmigo() {
+    if(amigos == "") {
+        alert("Todavía no ingresó nombres.");        
+    } else {
+        // Genera índice aleatorio.
+        let indice = Math.floor(Math.random() * amigos.length);
+        // Guarda el nombre según el índice.
+        let amigoSecreto = amigos[indice];
+        // Muestra el nombre sorteado en el HTML.
+        let resultado = document.getElementById("resultado");
+        resultado.innerHTML = `El amigo secreto sorteado es: ${amigoSecreto}`;
+
+        let lista = document.getElementById("listaAmigos");
+        lista.innerHTML = "";  // Limpia la lista de amigos para que no se vean los nombres, solamente el amigo secreto sorteado.
     }
 }
